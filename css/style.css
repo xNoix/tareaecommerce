@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f3f3ff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.eco {
+    display: flex;
+    justify-content: center;
+    background: white;
+    width: 100%;
+}
+.logo {
+  width: 20%;
+}
+.portada {
+ width: 100%;
+ border-radius: 1rem;
+}
+.hijo {
+  width: 80%;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 8px 8px 8px 2px rgba(6, 13, 217, 0.1);
+}
+.object1 {
+  width: 70%;
+}
+.object2 {
+  width: 30%;
+  padding: 2rem;
+}
+.container {
+    width: 70%;
+    height: 1200px;
+    background: #f3f3ff;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container1 {
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.item {
+    background: white;
+    color: black;
+    flex: none;
+    width: 23.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    box-shadow: 8px 8px 8px 2px rgba(6, 13, 217, 0.1);
+
+}
+.itemimg{
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+}
+.images{
+    
+    width: 80%;
+    margin: 0em;
+    border-radius: 1em;
+}
+.brand{
+    margin: 0.2em;
+    margin-left: 1rem;
+}
+.name {
+    margin-top: 0.4em;
+    margin-left: 1rem;
+    color: #888;
+    display: flex;
+    justify-content: flex-start;
+}
+.price {
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+    color: #060dd9;
+}
+header {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+  margin-bottom: 2rem;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
